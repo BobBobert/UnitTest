@@ -5,6 +5,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+/**
+ *  Eine Unit Test App für Android
+ * 
+ *  Klasse Launch Activity Test 
+ * 
+ * */
+
 public class LaunchActivityTest extends Activity {
 
 	@Override
@@ -13,10 +20,15 @@ public class LaunchActivityTest extends Activity {
 		setContentView(R.layout.activity_launch_activity_test);
 	}
 
+	
+	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.launch_activity_test, menu);
+		
+		
+		
 		return true;
 	}
 
